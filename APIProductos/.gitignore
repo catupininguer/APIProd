@@ -1,0 +1,20 @@
+# Archivos de configuración y temporales de Visual Studio
+.vs/    
+.vsidx# Carpeta de configuración del entorno de Visual Studio
+.vscode/                 # Si usas Visual Studio Code, también se debe ignorar esta carpeta
+.idea/                   # Si usas JetBrains, como ReSharper o Rider, se ignora esta carpeta
+*.user                   # Archivos de configuración específicos del usuario
+*.suo                    # Archivos de configuración del entorno de Visual Studio
+*.userosscache           # Archivos de caché
+*.sln.docstates          # Archivos temporales generados por Visual Studio
+
+# Archivos de compilación
+bin/                     # Archivos generados durante la compilación
+obj/                     # Archivos intermedios generados por el compilador
+*.dll                    # Archivos de bibliotecas dinámicas
+*.exe                    # Archivos ejecutables
+
+# Logs y backups
+*.log                    # Archivos de log generados por Visual Studio o el sistema
+*.bak                    # Archivos de respaldo
+*.swp                    # Archivos temporales de vim (si usas este editor)
